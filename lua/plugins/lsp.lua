@@ -36,6 +36,9 @@ return {
           },
         },
         oxlint = {},
+        qmlls = {
+          mason = false,
+        },
       },
     },
   },
