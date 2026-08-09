@@ -29,7 +29,6 @@ vim.keymap.set("n", "$", "g$")
 vim.keymap.set("n", "0", "g0")
 
 vim.keymap.set("n", "Q", "<nop>")
-vim.keymap.set("n", "<leader>ts", "<cmd>silent !tmux neww tms<CR>")
 
 -- void register
 vim.keymap.set({ "n", "v" }, "<leader>i", '"_d', {
