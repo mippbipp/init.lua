@@ -36,6 +36,9 @@ return {
           },
         },
         oxlint = {},
+        clangd = {
+          mason = false, -- mason ships no aarch64 build; use nixpkgs clang-tools
+        },
         qmlls = {
           mason = false,
         },
