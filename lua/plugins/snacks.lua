@@ -83,6 +83,7 @@ return {
             },
           },
           hidden = true,
+          ignored = true,
         },
         files = {
           hidden = true,
