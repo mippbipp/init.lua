@@ -43,19 +43,6 @@ return {
     end,
   },
   {
-    "neumachen/yank-file-path.nvim",
-    config = function()
-      require("yank-file-path").setup({
-        -- customize root markers for root-relative paths
-        root_markers = {
-          ".git",
-          -- "package.json", "Cargo.toml", "pyproject.toml"
-        },
-        enable_default_mappings = true, -- @see https://github.com/neumachen/yank-file-path.nvim#default-key-mappings
-      })
-    end,
-  },
-  {
     "eero-lehtinen/oklch-color-picker.nvim",
     event = "VeryLazy",
     version = "*",

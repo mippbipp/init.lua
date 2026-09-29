@@ -11,14 +11,6 @@ return {
           args = { "--config", markdownlint_cli2_path, "--fix", "$FILENAME" },
         },
       },
-      formatters_by_ft = {
-        javascript = { "oxfmt" },
-        typescript = { "oxfmt" },
-        javascriptreact = { "oxfmt" },
-        typescriptreact = { "oxfmt" },
-        json = { "oxfmt" },
-        jsonc = { "oxfmt" },
-      },
     },
   },
   {
