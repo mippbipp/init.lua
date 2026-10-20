@@ -27,6 +27,10 @@ return {
             },
           },
         },
+        copilot = {
+          -- server comes from nixpkgs
+          mason = false,
+        },
         remark_ls = {
           settings = {
             remark = {

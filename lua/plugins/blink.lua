@@ -4,9 +4,11 @@ return {
   opts = {
     keymap = {
       preset = "default",
-      ["<Tab>"] = {},
+      -- fall through to the built-in behaviour
+      ["<Tab>"] = { "fallback" },
       ["<S-Tab>"] = {},
-      ["<C-e>"] = {},
+      -- fall through to the <C-e> mapping in lua/plugins/ai.lua
+      ["<C-e>"] = { "fallback" },
     },
   },
 }
